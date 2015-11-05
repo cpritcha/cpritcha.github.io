@@ -1,0 +1,36 @@
+.bar {
+  fill: #D0C4AB;
+}
+
+.bar:hover {
+  fill: #131A2D;
+}
+
+.axis {
+  font: 8px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.confint {
+  pointer-events: none;
+}
+
+.confit line {
+  stroke: #555;
+}
+
+.x.axis {
+  font: 24px sans-serif;
+  fill: #777;
+  pointer-events: none;
+}
+
+.x.axis path {
+  display: none;
+}
